@@ -4,8 +4,8 @@ This repository contains the SQL queries and database model for an e-commerce st
 
 ## Repository Structure
 
-- **/database-model**: Contains the ER diagram and schema representations for the e-commerce store database model.
-- **/queries**: Includes SQL queries for common operations like retrieving product information, managing customer orders, etc. 
+- **database-model**: Contains the ER diagram and schema representations for the e-commerce store database model.
+- **queries**: Includes SQL queries for common operations like retrieving product information, managing customer orders, etc. 
 - **README.md**: This file, which provides an overview of the repository.
 
 ## Database Schema
