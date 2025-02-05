@@ -15,4 +15,4 @@ The database model used in this project is provided as a PNG file. Refer to data
 
 ## SQL Queries
 
-The `Queries` file contains various SQL scripts for interacting with the database.
+The `Queries` file and `Account_denamic` file contain various SQL scripts for interacting with the database.
