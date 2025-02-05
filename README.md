@@ -10,9 +10,9 @@ This repository contains the SQL queries and database model for an e-commerce st
 
 ## Database Schema
 
-The database model for the e-commerce store includes the following key entities:
+The database model used in this project is provided as a PNG file. Refer to database_model.png for an overview of the data structure.
 
 
 ## SQL Queries
 
-The `/queries` file contains various SQL scripts for interacting with the database.
+The `Queries` file contains various SQL scripts for interacting with the database.
