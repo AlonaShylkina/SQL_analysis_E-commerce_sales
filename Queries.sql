@@ -29,7 +29,8 @@ ORDER BY open_rate DESC
 LIMIT 1;
 
 
---this query calculates the number of sold products and the total sales revenue in the "Beds" category for each country on the continent of Europe
+/* this query calculates the number of sold products and the total sales revenue in the "Beds" 
+category for each country on the continent of Europe */
 SELECT 
   sp.country, 
   SUM(p.price) AS revenue, 
@@ -114,7 +115,8 @@ FROM `DA.paid_search_cost`
 ORDER BY date, type DESC;
 
 
---this query counts the number of events with the type user_engagement, but only for those sessions where there were more than 2 events in total within the session
+/* this query counts the number of events with the type user_engagement, but only for those sessions 
+where there were more than 2 events in total within the session */
 SELECT COUNT(ep.ga_session_id) AS session_cnt
 FROM `data-analytics-mate.DA.event_params` ep
 JOIN
